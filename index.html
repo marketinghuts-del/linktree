@@ -3,12 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Diagnostic Center Links</title>
+
+  <!-- Page Title -->
+  <title>Sonic Diagnostic Center | Patient Services</title>
+
+  <!-- Open Graph / WhatsApp / Facebook Preview -->
+  <meta property="og:title" content="Sonic Diagnostic Center" />
+  <meta property="og:description" content="Medical Diagnostic & Laboratory Services. Test inquiries, appointments, and patient services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourusername.github.io" />
+  <meta property="og:image" content="https://yourusername.github.io/preview-image.jpg" />
+
+  <!-- Twitter Preview (optional but professional) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sonic Diagnostic Center">
+  <meta name="twitter:description" content="Reliable medical diagnostics, laboratory testing, and patient services.">
+  <meta name="twitter:image" content="https://yourusername.github.io/preview-image.jpg">
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #eef2f6;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -17,31 +32,63 @@
     }
 
     .container {
+      background: #ffffff;
       width: 100%;
-      max-width: 400px;
-      padding: 20px;
+      max-width: 420px;
+      padding: 30px 24px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
       text-align: center;
     }
 
     h2 {
-      margin-bottom: 20px;
-      color: #333;
+      margin-bottom: 6px;
+      color: #0a2a43;
+      font-size: 22px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #6b7a88;
+      margin-bottom: 26px;
     }
 
     a.button {
       display: block;
       text-decoration: none;
-      background: #007bff;
-      color: #fff;
-      padding: 15px;
-      margin: 12px 0;
-      border-radius: 8px;
-      font-size: 16px;
-      font-weight: bold;
+      padding: 16px;
+      margin: 14px 0;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #ffffff;
+      transition: opacity 0.2s ease;
+    }
+
+    .primary {
+      background: #0d6efd;
+    }
+
+    .secondary {
+      background: #198754;
+    }
+
+    .neutral {
+      background: #6c757d;
+    }
+
+    .admin {
+      background: #dc3545;
     }
 
     a.button:hover {
-      background: #0056b3;
+      opacity: 0.9;
+    }
+
+    .footer-note {
+      margin-top: 22px;
+      font-size: 12px;
+      color: #8a98a6;
     }
   </style>
 </head>
@@ -49,22 +96,29 @@
 
   <div class="container">
     <h2>Sonic Diagnostic Center</h2>
+    <div class="subtitle">
+      Medical Diagnostic & Laboratory Services
+    </div>
 
-    <a class="button" href="https://your-google-form-link" target="_blank">
-      Inquiry Test
+    <a class="button primary" href="https://your-google-form-link" target="_blank">
+      Test Inquiry & Price Information
     </a>
 
-    <a class="button" href="https://your-booking-link" target="_blank">
-      Booking Appointment
+    <a class="button secondary" href="https://your-booking-link" target="_blank">
+      Book Laboratory Appointment
     </a>
 
-    <a class="button" href="https://your-existing-patient-link" target="_blank">
-      Existing Patient
+    <a class="button neutral" href="https://your-existing-patient-link" target="_blank">
+      Existing Patient Services
     </a>
 
-    <a class="button" href="https://your-price-update-link" target="_blank">
-      Update Price
+    <a class="button admin" href="https://your-price-update-link" target="_blank">
+      Update Test Prices (Staff Only)
     </a>
+
+    <div class="footer-note">
+      Accurate. Reliable. Confidential.
+    </div>
   </div>
 
 </body>
