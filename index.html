@@ -1,120 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>ReLink | Sonic Diagnostic Center</title>
 
-  <!-- Open Graph / WhatsApp / Facebook Preview -->
-  <meta property="og:title" content="ReLink | Sonic Diagnostic Center" />
-  <meta property="og:description" content="Access lab services instantly: check tests, book appointments, or update prices. Secure, fast, and reliable." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://marketinghuts-del.github.io/linktree/" />
-  <meta property="og:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg" />
-  <meta property="og:image:secure_url" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg" />
-  <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="ReLink - Sonic Diagnostic Center Lab Services" />
+  <!-- Description -->
+  <meta name="description" content="ReLink by Sonic Diagnostic Center. Ask about tests, book appointments, and access staff tools — fast and secure.">
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="ReLink | Sonic Diagnostic Center" />
-  <meta name="twitter:description" content="Access lab services instantly: check tests, book appointments, or update prices. Secure, fast, and reliable." />
-  <meta name="twitter:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://marketinghuts-del.github.io/linktree/">
 
-  <!-- SEO Theme -->
-  <meta name="theme-color" content="#0a2a43" />
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="Sonic Diagnostic Center">
+  <meta property="og:title" content="ReLink | Sonic Diagnostic Center">
+  <meta property="og:description" content="Ask about tests, book appointments, or access staff tools instantly.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://marketinghuts-del.github.io/linktree/">
+  <meta property="og:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+  <meta property="og:image:secure_url" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="ReLink - Sonic Diagnostic Center">
+
+  <link rel="image_src" href="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ReLink | Sonic Diagnostic Center">
+  <meta name="twitter:description" content="Ask about tests, book appointments, or access staff tools instantly.">
+  <meta name="twitter:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+
+  <meta name="theme-color" content="#0a2a43">
 
   <style>
-    :root {
-      --primary: #0d6efd;
-      --secondary: #198754;
-      --neutral: #6c757d;
-      --admin: #dc3545;
-      --bg: #eef2f6;
-      --text-dark: #0a2a43;
-      --text-muted: #6b7a88;
+    :root{
+      --primary:#0d6efd;
+      --secondary:#198754;
+      --neutral:#6c757d;
+      --admin:#dc3545;
+      --bg:#eef2f6;
+      --dark:#0a2a43;
+      --muted:#6b7a88;
     }
-    * { box-sizing: border-box; margin:0; padding:0; }
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: var(--bg);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Segoe UI,Arial,sans-serif;
+      background:var(--bg);
+      min-height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
     }
-    .container {
-      background: #fff;
-      width: 100%;
-      max-width: 420px;
-      padding: 32px 24px;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-      text-align: center;
+    .container{
+      background:#fff;
+      width:100%;
+      max-width:420px;
+      padding:32px 24px;
+      border-radius:14px;
+      box-shadow:0 10px 24px rgba(0,0,0,.08);
+      text-align:center;
     }
-    h2 {
-      font-size: 24px;
-      color: var(--text-dark);
-      margin-bottom: 8px;
+    h2{color:var(--dark);font-size:24px;margin-bottom:6px}
+    .subtitle{font-size:14px;color:var(--muted);margin-bottom:26px}
+    a.button{
+      display:block;
+      text-decoration:none;
+      padding:16px;
+      margin:12px 0;
+      border-radius:12px;
+      font-size:16px;
+      font-weight:600;
+      color:#fff;
+      transition:opacity .2s ease;
     }
-    .subtitle {
-      font-size: 14px;
-      color: var(--text-muted);
-      margin-bottom: 28px;
+    .primary{background:var(--primary)}
+    .secondary{background:var(--secondary)}
+    .neutral{background:var(--neutral)}
+    .admin{background:var(--admin)}
+    a.button:hover{opacity:.9}
+    .footer{
+      margin-top:26px;
+      font-size:12px;
+      color:#8a98a6;
     }
-    a.button {
-      display: block;
-      text-decoration: none;
-      padding: 16px;
-      margin: 12px 0;
-      border-radius: 12px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #fff;
-      transition: opacity 0.2s ease;
-    }
-    .primary { background: var(--primary); }
-    .secondary { background: var(--secondary); }
-    .neutral { background: var(--neutral); }
-    .admin { background: var(--admin); }
-    a.button:hover { opacity: 0.9; }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 12px;
-      color: #8a98a6;
-    }
-
-    /* Mobile responsiveness */
-    @media (max-width: 500px) {
-      .container { padding: 24px 16px; }
-      h2 { font-size: 20px; }
-      a.button { font-size: 15px; padding: 14px; }
+    @media(max-width:500px){
+      .container{padding:24px 16px}
+      h2{font-size:20px}
+      a.button{font-size:15px}
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h2>Sonic Diagnostic Center</h2>
-    <div class="subtitle">
-      Medical Diagnostic & Laboratory Services
-    </div>
+    <div class="subtitle">Medical Diagnostic & Laboratory Services</div>
 
-    <a class="button primary" href="https://forms.gle/oxHsf2mr8FzVLTs67" target="_blank">Ask About Test</a>
-    <a class="button secondary" href="https://forms.gle/iosopPNDpr5T6KBi9" target="_blank">Book Appointment</a>
-    <a class="button neutral" href="https://your-existing-patient-link" target="_blank">Already a Patient (Staff Only)</a>
-    <a class="button admin" href="https://your-price-update-link" target="_blank">See New Prices (Staff Only)</a>
+    <!-- Public -->
+    <a class="button primary" href="https://forms.gle/oxHsf2mr8FzVLTs67" target="_blank">
+      Ask About Test
+    </a>
 
-    <div class="footer-note">
+    <a class="button secondary" href="https://forms.gle/iosopPNDpr5T6KBi9" target="_blank">
+      Book Appointment
+    </a>
+
+    <!-- Staff Locked -->
+    <a class="button neutral" href="#" onclick="openStaffLink('https://your-existing-patient-link')">
+      Already a Patient (Staff Only)
+    </a>
+
+    <a class="button admin" href="#" onclick="openStaffLink('https://your-price-update-link')">
+      See New Prices (Staff Only)
+    </a>
+
+    <div class="footer">
       © <span id="year"></span> Sonic Diagnostic Center. Powered by Fantastic Skills.
     </div>
   </div>
 
   <script>
-    // Automatically update year
-    document.getElementById('year').textContent = new Date().getFullYear();
+    // AUTO YEAR
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // CHANGE PIN HERE ONLY
+    const STAFF_PIN = "4321";
+
+    function openStaffLink(url){
+      const pin = prompt("Enter staff PIN");
+      if(pin === STAFF_PIN){
+        window.open(url, "_blank", "noopener");
+      } else if(pin !== null){
+        alert("Wrong PIN");
+      }
+    }
   </script>
 </body>
 </html>
