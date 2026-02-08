@@ -1,39 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>ReLink | Sonic Diagnostic Center</title>
+  <title>Global Viva Medical Diagnostic Laboratory</title>
 
-  <!-- Description -->
-  <meta name="description" content="ReLink by Sonic Diagnostic Center. Ask about tests, book appointments, and access staff tools — fast and secure.">
+  <!-- Canonical MUST match page URL exactly -->
+  <link rel="canonical" href="https://marketinghuts-del.github.io/linktree/" />
 
-  <!-- Canonical -->
-  <link rel="canonical" href="https://marketinghuts-del.github.io/linktree/">
+  <!-- Primary Meta -->
+  <meta name="description" content="ReLink by Global Viva Medical Diagnostic Laboratory. Ask about tests, book appointments, and access staff tools instantly." />
 
   <!-- Open Graph -->
-  <meta property="og:site_name" content="Sonic Diagnostic Center">
-  <meta property="og:title" content="ReLink | Sonic Diagnostic Center">
-  <meta property="og:description" content="Ask about tests, book appointments, or access staff tools instantly.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://marketinghuts-del.github.io/linktree/">
-  <meta property="og:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
-  <meta property="og:image:secure_url" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="ReLink - Sonic Diagnostic Center">
+  <meta property="og:site_name" content="Global Viva Medical Diagnostic Laboratory" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="ReLink | Global Viva Medical Diagnostic Laboratory" />
+  <meta property="og:description" content="Ask about tests, book appointments, or access staff tools instantly." />
+  <meta property="og:url" content="https://marketinghuts-del.github.io/linktree/" />
 
-  <link rel="image_src" href="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+  <!-- GitHub-safe image declaration -->
+  <meta property="og:image" content="https://marketinghuts-del.github.io/linktree_global/preview.jpg?v=1" />
+  <meta property="og:image:url" content="https://marketinghuts-del.github.io/linktree_global/preview.jpg?v=1" />
+  <meta property="og:image:secure_url" content="https://marketinghuts-del.github.io/linktree_global/preview.jpg?v=1" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="ReLink – Global Viva Medical Diagnostic Laboratory" />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="ReLink | Sonic Diagnostic Center">
-  <meta name="twitter:description" content="Ask about tests, book appointments, or access staff tools instantly.">
-  <meta name="twitter:image" content="https://marketinghuts-del.github.io/bomardekdiagnosticandpharmaceutical/preview.jpg">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ReLink | Global Viva Medical Diagnostic Laboratory" />
+  <meta name="twitter:description" content="Ask about tests, book appointments, or access staff tools instantly." />
+  <meta name="twitter:image" content="https://marketinghuts-del.github.io/linktree_global/preview.jpg?v=1" />
+  <meta name="twitter:image:alt" content="ReLink – Global Viva Medical Diagnostic Laboratory" />
 
-  <meta name="theme-color" content="#0a2a43">
+  <meta name="theme-color" content="#0a2a43" />
 
   <style>
     :root{
@@ -96,10 +99,9 @@
 
 <body>
   <div class="container">
-    <h2>Sonic Diagnostic Center</h2>
+    <h2>Global Viva Medical Diagnostic Laboratory</h2>
     <div class="subtitle">Medical Diagnostic & Laboratory Services</div>
 
-    <!-- Public -->
     <a class="button primary" href="https://forms.gle/oxHsf2mr8FzVLTs67" target="_blank">
       Ask About Test
     </a>
@@ -108,35 +110,21 @@
       Book Appointment
     </a>
 
-    <!-- Staff Locked -->
-    <a class="button neutral" href="#" onclick="openStaffLink('https://your-existing-patient-link')">
+    <a class="button neutral" href="#">
       Already a Patient (Staff Only)
     </a>
 
-    <a class="button admin" href="#" onclick="openStaffLink('https://your-price-update-link')">
+    <a class="button admin" href="#">
       See New Prices (Staff Only)
     </a>
 
     <div class="footer">
-      © <span id="year"></span> Sonic Diagnostic Center. Powered by Fantastic Skills.
+      © <span id="year"></span> Global Viva Medical Diagnostic Laboratory. Powered by Fantastic Skills.
     </div>
   </div>
 
   <script>
-    // AUTO YEAR
     document.getElementById("year").textContent = new Date().getFullYear();
-
-    // CHANGE PIN HERE ONLY
-    const STAFF_PIN = "4321";
-
-    function openStaffLink(url){
-      const pin = prompt("Enter staff PIN");
-      if(pin === STAFF_PIN){
-        window.open(url, "_blank", "noopener");
-      } else if(pin !== null){
-        alert("Wrong PIN");
-      }
-    }
   </script>
 </body>
 </html>
